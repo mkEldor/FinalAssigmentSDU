@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="adilbek.finalassigmentsdu.FragmentsMaster">
+
+    <fragment
+        android:id="@+id/fack"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="adilbek.finalassigmentsdu.MainFragment"
+        tools:layout="@layout/main_fragment" />
+
+</LinearLayout>

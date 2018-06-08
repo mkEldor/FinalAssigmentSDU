@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="adilbek.finalassigmentsdu.LandSpaceFragmentMaster">
+
+    <fragment
+        android:id="@+id/newfragment"
+        android:name="adilbek.finalassigmentsdu.MainFragment"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        tools:layout="@layout/main_fragment" />
+
+    <FrameLayout
+        android:id="@+id/fragmentConteinerOne"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@+id/newfragment" />
+
+</RelativeLayout>
